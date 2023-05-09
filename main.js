@@ -39,10 +39,10 @@ function getData() {
             priceQuantity.className = 'priceQuantity'
             detail.appendChild(priceQuantity)
 
-            // const itemPrice = document.createElement('h2');
-            // itemPrice.className = 'itemPrice'
-            // itemPrice.innerText = `$ ${price}`;
-            // priceQuantity.appendChild(itemPrice)
+            const itemPrice = document.createElement('h2');
+            itemPrice.className = 'itemPrice'
+            itemPrice.innerText = `$ ${price}`;
+            priceQuantity.appendChild(itemPrice)
 
             const icon = document.createElement('div')
             icon.className = 'icon'
