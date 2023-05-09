@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    background-color: #212529;
+    color: aliceblue;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cart {
+    background-color: aliceblue;
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cart-Amount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 3px;
+
+
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media(max-width:1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media(max-width:500px) {
+    .shop {
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: green;
+}
+
+.priceQuantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.icon {
+    display: flex;
+    font-size: 20px;
+    gap: 8px;
+    justify-content: space-between;
+    /* float: left; */
+
+}
+
+.item {
+    border: solid 2px;
+    border-radius: 4px;
+    gap: 2px;
+    border-color: #212529;
+}
+
+.detail {
+    padding: 5px;
+}
+
+.description {
+    font-family: sans-serif;
+}
+
+.addShop {
+    background-color: #212529;
+    border: solid;
+}

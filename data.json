@@ -1,0 +1,88 @@
+{
+    "shopItems": [
+        {
+            "id": "one",
+            "name": "Casual Shirt",
+            "price": 45,
+            "desc": "Express has the best casual shirts for men",
+            "img": "./image2/casual%20shirt.jpg"
+        },
+        {
+            "id": "two",
+            "name": "Office Shirt",
+            "price": 100,
+            "desc": "Office shirt is good to wear and nice",
+            "img": "./image2/office%20shirt.jpg"
+        },
+        {
+            "id": "three",
+            "name": "T- Shirt",
+            "price": 25,
+            "desc": "T-shirt outfits can work well with business casual attire for the office",
+            "img": "./image2/T-shirt.jpg"
+        },
+        {
+            "id": "four",
+            "name": "Men Suit",
+            "price": 300,
+            "desc": "Look classy in suit",
+            "img": "./image2/suit.jpg"
+        },
+        {
+            "id": "five",
+            "name": "Baby Cloth",
+            "price": 40,
+            "desc": "Want your baby to look nice",
+            "img": "./image2/baby%20cloth.jpg"
+        },
+        {
+            "id": "six",
+            "name": "Baby shirt",
+            "price": 50,
+            "desc": "comfort for little kids",
+            "img": "./image2/baby%20shirt.jpg"
+        },
+        {
+            "id": "seven",
+            "name": "Female Jean",
+            "price": 38,
+            "desc": "tight and nice",
+            "img": "./image2/female%20jean.avif"
+        },
+        {
+            "id": "eight",
+            "name": "Female Shoe",
+            "price": 111,
+            "desc": "Nice female shoe for classic date",
+            "img": "./image2/female%20shoe.webp"
+        },
+        {
+            "id": "nine",
+            "name": "Femal Summer Wear",
+            "price": 50,
+            "desc": "sexy summer wear for girl",
+            "img": "./image2/female%20summer%20wear.avif"
+        },
+        {
+            "id": "ten",
+            "name": "Men Shoe",
+            "price": 38,
+            "desc": "Nice shoe for men to match their style",
+            "img": "./image2/men%20shoe.avif"
+        },
+        {
+            "id": "eleven",
+            "name": "Men Tie",
+            "price": 20,
+            "desc": "This tie will to with any suit",
+            "img": "./image2/men%20tie.jpg"
+        },
+        {
+            "id": "twelve",
+            "name": "summer",
+            "price": 25,
+            "desc": "summer wear for men to look classic",
+            "img": "./image2/summer.avif"
+        }
+    ]
+}
