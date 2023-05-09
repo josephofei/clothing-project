@@ -57,8 +57,8 @@ function getData() {
             itemQuantity.innerText = 0;
             icon.appendChild(itemQuantity)
 
-            // const iconPlus = document.createElement('i')
-            // iconPlus.className = 'bi bi-plus-lg';
+            const iconPlus = document.createElement('i')
+            iconPlus.className = 'bi bi-plus-lg';
             // icon.appendChild(iconPlus)
 
             // const addShop = document.getElementById('addShop')
