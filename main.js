@@ -48,9 +48,9 @@ function getData() {
             icon.className = 'icon'
             priceQuantity.appendChild(icon)
 
-            // const iconMinus = document.createElement('i');
-            // iconMinus.className = 'bi bi-dash-lg'
-            // icon.appendChild(iconMinus)
+            const iconMinus = document.createElement('i');
+            iconMinus.className = 'bi bi-dash-lg'
+            icon.appendChild(iconMinus)
 
             let itemQuantity = document.createElement('div')
             itemQuantity.innerText = 0;
