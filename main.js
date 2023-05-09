@@ -78,12 +78,12 @@ function plus() {
     })
 }
 
-// function minus() {
-//     const decrement = document.querySelectorAll('.bi bi-dash-lg')
-//     decrement.addEventListner('click', () => {
-//         itemQuantity.innerText -= 1
-//     })
-// }
+function minus() {
+    const decrement = document.querySelectorAll('.bi bi-dash-lg')
+    decrement.addEventListner('click', () => {
+        itemQuantity.innerText -= 1
+    })
+}
 
 
 
