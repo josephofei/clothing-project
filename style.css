@@ -9,14 +9,14 @@ body {
 }
 
 
-/* .navbar {
+.navbar {
     background-color: #212529;
     color: aliceblue;
     padding: 25px 60px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-} */
+}
 
 .cart {
     background-color: aliceblue;
