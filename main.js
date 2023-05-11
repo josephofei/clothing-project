@@ -73,10 +73,10 @@ function getData() {
             icon.appendChild(iconMinus)
 
             // this div is where the amount is 
-            // let itemQuantity = document.createElement('div')
-            // itemQuantity.innerText = 0;
-            // itemQuantity.className = 'itemQuantity'
-            // icon.appendChild(itemQuantity)
+            let itemQuantity = document.createElement('div')
+            itemQuantity.innerText = 0;
+            itemQuantity.className = 'itemQuantity'
+            icon.appendChild(itemQuantity)
 
             // this is the plus icon
             const iconPlus = document.createElement('i')
