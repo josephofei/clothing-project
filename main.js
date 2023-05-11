@@ -12,10 +12,10 @@ function getData() {
 
             const cartAmount = document.getElementById('cartAmount')
 
-            const div = document.createElement('div');
-            div.id = `product-id-${id}`
-            div.className = 'item';
-            shop.appendChild(div)
+            // const div = document.createElement('div');
+            // div.id = `product-id-${id}`
+            // div.className = 'item';
+            // shop.appendChild(div)
 
             const image = document.createElement('img');
             image.width = '220';
