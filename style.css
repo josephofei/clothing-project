@@ -47,6 +47,7 @@ body {
     grid-template-columns: repeat(4, 223px);
     gap: 30px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 @media(max-width:1000px) {
@@ -93,6 +94,10 @@ body {
 
 }
 
+.item:hover {
+    transform: scale(1.1);
+}
+
 .detail {
     padding: 5px;
     position: relative;
@@ -105,25 +110,4 @@ body {
 
 .description {
     font-family: sans-serif;
-}
-
-.btn {
-    background-color: red;
-    color: aliceblue;
-    border: solid;
-    border-radius: 4px;
-    align-self: flex-end;
-
-}
-
-/* .addShop {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
-    display: flex;
-
-} */
-
-.input {
-    padding: 8px;
 }
