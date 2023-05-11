@@ -97,14 +97,14 @@ getData();
 
 
 
-// this is when the mouse enter the cart, a popup will show the number of item you have!
-// const cart = document.querySelector('.cart')
-// cart.addEventListener('mouseenter', () => {
-//     const popup = document.createElement('div')
-//     popup.className = 'popup';
-//     popup.id = 'popup';
-//     popup.innerText = alert(`Your total item is: ${cartAmount.innerText}`)
-// })
+//this is when the mouse enter the cart, a popup will show the number of item you have!
+const cart = document.querySelector('.cart')
+cart.addEventListener('mouseenter', () => {
+    const popup = document.createElement('div')
+    popup.className = 'popup';
+    popup.id = 'popup';
+    popup.innerText = alert(`Your total item is: ${cartAmount.innerText}`)
+})
 
 
 
