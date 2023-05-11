@@ -12,16 +12,16 @@ function getData() {
 
             const cartAmount = document.getElementById('cartAmount')
 
-            // const div = document.createElement('div');
-            // div.id = `product-id-${id}`
-            // div.className = 'item';
-            // shop.appendChild(div)
+            const div = document.createElement('div');
+            div.id = `product-id-${id}`
+            div.className = 'item';
+            shop.appendChild(div)
 
-            const image = document.createElement('img');
-            image.width = '220';
-            image.height = '220'
-            image.src = `${img}`;
-            div.appendChild(image)
+            // const image = document.createElement('img');
+            // image.width = '220';
+            // image.height = '220'
+            // image.src = `${img}`;
+            // div.appendChild(image)
 
             const detail = document.createElement('div');
             detail.className = 'detail';
