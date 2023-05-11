@@ -10,6 +10,8 @@ function getData() {
             let { id, name, price, desc, img } = item;
             console.log(img)
 
+            const cartAmount = document.getElementById('cartAmount')
+
             const div = document.createElement('div');
             div.id = `product-id-${id}`
             div.className = 'item';
@@ -50,17 +52,32 @@ function getData() {
 
             const iconMinus = document.createElement('i');
             iconMinus.className = 'bi bi-dash-lg'
+
+            iconMinus.addEventListener('click', () => {
+
+                if (parseInt(itemQuantity.innerText) === 0) return;
+                else {
+                    itemQuantity.innerText = parseInt(itemQuantity.innerText) - 1;
+                    cartAmount.innerText = parseInt(cartAmount.innerText) - 1;
+                }
+            })
+
             icon.appendChild(iconMinus)
 
             let itemQuantity = document.createElement('div')
             itemQuantity.innerText = 0;
+            itemQuantity.className = 'itemQuantity'
             icon.appendChild(itemQuantity)
 
             const iconPlus = document.createElement('i')
             iconPlus.className = 'bi bi-plus-lg';
+            iconPlus.addEventListener('click', () => {
+                itemQuantity.innerText = parseInt(itemQuantity.innerText) + 1;
+                cartAmount.innerText = parseInt(cartAmount.innerText) + 1;
+            })
             icon.appendChild(iconPlus)
 
-            // const addShop = document.getElementById('addShop')
+
 
 
         }))
@@ -68,21 +85,31 @@ function getData() {
 
 getData();
 
-//let itemQuantity = document.createElement('div')
 
-function plus() {
-    const increment = document.querySelectorAll('.bi bi-plus-lg')
-    increment.addEventListner('click', () => {
-        itemQuantity.innerText += 1
-    })
-}
+// this is when the mouse enter the cart, a popup will show the number of item you have!
 
-function minus() {
-    const decrement = document.querySelectorAll('.bi bi-dash-lg')
-    decrement.addEventListner('click', () => {
-        itemQuantity.innerText -= 1
-    })
-}
+const cart = document.querySelector('.cart')
+cart.addEventListener('mouseenter', () => {
+    const popup = document.createElement('div')
+    popup.className = 'popup';
+    popup.id = 'popup';
+    popup.innerText = alert(`Your total item is: ${cartAmount.innerText}`)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

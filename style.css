@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+
+
 }
 
 .cart {
@@ -27,7 +29,7 @@ body {
     position: relative;
 }
 
-.cart-Amount {
+.cartAmount {
     position: absolute;
     top: -15px;
     right: -10px;
@@ -71,8 +73,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
+    padding-top: 10px;
 }
 
 .icon {
@@ -89,17 +90,40 @@ body {
     border-radius: 4px;
     gap: 2px;
     border-color: #212529;
+
 }
 
 .detail {
     padding: 5px;
+    position: relative;
+
+    justify-content: center;
+
+
+
 }
 
 .description {
     font-family: sans-serif;
 }
 
-.addShop {
-    background-color: #212529;
+.btn {
+    background-color: red;
+    color: aliceblue;
     border: solid;
+    border-radius: 4px;
+    align-self: flex-end;
+
+}
+
+.addShop {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.input {
+    padding: 8px;
 }
