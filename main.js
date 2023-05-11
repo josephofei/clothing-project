@@ -17,11 +17,11 @@ function getData() {
             div.className = 'item';
             shop.appendChild(div)
 
-            // const image = document.createElement('img');
-            // image.width = '220';
-            // image.height = '220'
-            // image.src = `${img}`;
-            // div.appendChild(image)
+            const image = document.createElement('img');
+            image.width = '220';
+            image.height = '220'
+            image.src = `${img}`;
+            div.appendChild(image)
 
             const detail = document.createElement('div');
             detail.className = 'detail';
@@ -31,10 +31,10 @@ function getData() {
             h3.innerText = `${name}`;
             detail.appendChild(h3)
 
-            const description = document.createElement('p');
-            description.innerText = `${desc}`;
-            description.className = 'description'
-            detail.appendChild(description);
+            // const description = document.createElement('p');
+            // description.innerText = `${desc}`;
+            // description.className = 'description'
+            // detail.appendChild(description);
 
 
             const priceQuantity = document.createElement('div');
